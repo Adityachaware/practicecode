@@ -13,26 +13,37 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.flex-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+}
+
+.button {
+  color: brown;
+}
+
+.button:hover {
+  background-color: darkred;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.alignment {
+  text-align: left;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.icons {
+  opacity: 0;
+}
+
+tr:hover .icons {
+  opacity: 1;
+  color: red;
+}
+
+.navbar-color {
+  color: black !important;
+}
+
+.navbar-color:hover {
+  color: darkslateblue !important;
 }
